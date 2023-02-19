@@ -1,4 +1,4 @@
 const Constants={
-    API_URL: "http://api.alex-olariu.eu",
+    API_URL: "http://127.0.0.1:8000",
 }
 export default Constants

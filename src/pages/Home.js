@@ -53,7 +53,7 @@ function Home() {
                   setMessage(response.data.message)
                   if(response.data.token){
                       setToken(response.data.token);
-                      navigate('/meniu')
+                      navigate('/menu')
 
                   }
               }).catch(function(error){
@@ -75,7 +75,7 @@ function Home() {
             <div className='relative py-6 bottom-0 mx-auto left-0 right-0 md:py-12'>
                 <div className='flex flex-col justify-center sm:flex-row'>
                     <div className='py-4 px-10 '>
-                        <button onClick={() => navigate('/meniu')} className='border border-[#000] 
+                        <button onClick={() => navigate('/menu')} className='border border-[#000] 
                         bg-gradient-to-b from-[#f8be6d] to-[#d7a051] 
                         text-white w-[200px] h-14 rounded-full text-[20px] shadow-md shadow-white/20
                         transform transition duration-500 hover:scale-110'>

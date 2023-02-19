@@ -3,8 +3,7 @@ import logo from '../assets/logo-small.png'
 import { useNavigate } from 'react-router-dom';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { fetchToken,removeToken, setToken } from '../components/Auth';
-import jwt from 'jwt-decode'
+import { fetchToken} from '../components/Auth';
 import ReactModal from 'react-modal';
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
@@ -78,7 +77,7 @@ function Meniu() {
   };
 
   const editData = async() => {
-    if(toEdit.id < 0 || toEdit.title == "")
+    if(toEdit.id < 0 || toEdit.title === "")
       return
     try{
       const response = await fetch(`${ApiURL}/foods/?id=${toEdit.id}&title=${toEdit.title}&description=${toEdit.description}&price=${toEdit.price}&grams=${toEdit.grams}`, {
@@ -99,7 +98,7 @@ function Meniu() {
   };
 
   const deleteData = async() => {
-    if(toDelete.id < 0 || toDelete.title == "")
+    if(toDelete.id < 0 || toDelete.title === "")
       return
 
     try{
@@ -152,7 +151,7 @@ function Meniu() {
   })
 
   useEffect(() => {
-    if(toDelete.id != -1)
+    if(toDelete.id !== -1)
       confirmAlert(options)
   },[toDelete]);
   
@@ -175,7 +174,7 @@ function Meniu() {
   };
 
   useEffect(() => {
-    if(toEdit.id != -1){
+    if(toEdit.id !== -1){
       
       openModal();
     }
@@ -242,7 +241,7 @@ function Meniu() {
               }}>
               <div className='relative bg-[#f3ba6b] text-center w-[70px] h-[70px] flex flex-col justify-center mx-auto rounded-full'>
                 <img className='rounded-full' 
-                  src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/soup.jpg' ></img>
+                  src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/soup.jpg' alt=''></img>
               </div>
               <div className='mx-auto text-center'>                 
                 <p>Soup</p>
@@ -253,7 +252,7 @@ function Meniu() {
               }}>
               <div className='relative bg-[#f3ba6b] text-center w-[70px] h-[70px] flex flex-col justify-center mx-auto rounded-full'>
                 <img className='rounded-full' 
-                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/main-course.jpg' ></img>
+                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/main-course.jpg' alt=''></img>
               </div>
               <div className='mx-auto text-center'>                 
                 <p>Main course</p>
@@ -264,7 +263,7 @@ function Meniu() {
               }}>
               <div className='relative bg-[#f3ba6b] text-center w-[70px] h-[70px] flex flex-col justify-center mx-auto rounded-full'>
                 <img className='rounded-full' 
-                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/appetizer.jpg' ></img>
+                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/appetizer.jpg' alt=''></img>
               </div>
               <div className='mx-auto text-center'>                 
                 <p>Appetizer</p>
@@ -275,7 +274,7 @@ function Meniu() {
               }}>
               <div className='relative bg-[#f3ba6b] text-center w-[70px] h-[70px] flex flex-col justify-center mx-auto rounded-full'>
                 <img className='rounded-full' 
-                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/appetizer.jpg' ></img>
+                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/appetizer.jpg' alt=''></img>
               </div>
               <div className='mx-auto text-center'>                 
                 <p>Appetizer</p>
@@ -286,7 +285,7 @@ function Meniu() {
               }}>
               <div className='relative bg-[#f3ba6b] text-center w-[70px] h-[70px] flex flex-col justify-center mx-auto rounded-full'>
                 <img className='rounded-full' 
-                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/appetizer.jpg' ></img>
+                    src='https://flavorful-fusion.s3.eu-central-1.amazonaws.com/foods/assets/menu/navbar-images/appetizer.jpg' alt=''></img>
               </div>
               <div className='mx-auto text-center'>                 
                 <p>Appetizer</p>
