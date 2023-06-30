@@ -13,9 +13,9 @@ function App() {
     <AuthApi.Provider value={{auth, setAuth}}>
       <Router>            
         <Routes>
-            <Route path="/" element={<Home/>}/>          
-            <Route path="/menu" element={<Meniu/>}/>
-            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/flavorfulfusion/" element={<Home/>}/>          
+            <Route path="/flavorfulfusion/menu" element={<Meniu/>}/>
+            <Route path="/flavorfulfusion/contact" element={<Contact/>}/>
         </Routes>
       </Router>
     </AuthApi.Provider>

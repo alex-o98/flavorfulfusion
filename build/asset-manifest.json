@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/flavorfulfusion/static/css/main.257581a8.css",
+    "main.js": "/flavorfulfusion/static/js/main.919d8a47.js",
+    "static/media/homepage-bg.jpeg": "/flavorfulfusion/static/media/homepage-bg.60529598a93d52857f1c.jpeg",
+    "static/media/logo-full-new.png": "/flavorfulfusion/static/media/logo-full-new.58650f79d6bc45fc3a75.png",
+    "static/media/logo-small.png": "/flavorfulfusion/static/media/logo-small.d7823252cdfca0886889.png",
+    "static/media/revicons.eot": "/flavorfulfusion/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/flavorfulfusion/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/flavorfulfusion/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/flavorfulfusion/index.html",
+    "main.257581a8.css.map": "/flavorfulfusion/static/css/main.257581a8.css.map",
+    "main.919d8a47.js.map": "/flavorfulfusion/static/js/main.919d8a47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.257581a8.css",
+    "static/js/main.919d8a47.js"
+  ]
+}
