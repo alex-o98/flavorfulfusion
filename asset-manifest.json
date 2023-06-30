@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6281e7b6.css",
-    "main.js": "/static/js/main.c316c81e.js",
-    "static/media/homepage-bg.jpeg": "/static/media/homepage-bg.60529598a93d52857f1c.jpeg",
-    "static/media/logo-full-new.png": "/static/media/logo-full-new.58650f79d6bc45fc3a75.png",
-    "static/media/logo-small.png": "/static/media/logo-small.d7823252cdfca0886889.png",
-    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/index.html",
-    "main.6281e7b6.css.map": "/static/css/main.6281e7b6.css.map",
-    "main.c316c81e.js.map": "/static/js/main.c316c81e.js.map"
+    "main.css": "/flavorfulfusion.github.io/static/css/main.84603587.css",
+    "main.js": "/flavorfulfusion.github.io/static/js/main.cb816622.js",
+    "static/media/homepage-bg.jpeg": "/flavorfulfusion.github.io/static/media/homepage-bg.60529598a93d52857f1c.jpeg",
+    "static/media/logo-full-new.png": "/flavorfulfusion.github.io/static/media/logo-full-new.58650f79d6bc45fc3a75.png",
+    "static/media/logo-small.png": "/flavorfulfusion.github.io/static/media/logo-small.d7823252cdfca0886889.png",
+    "static/media/revicons.eot": "/flavorfulfusion.github.io/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/flavorfulfusion.github.io/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/flavorfulfusion.github.io/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/flavorfulfusion.github.io/index.html",
+    "main.84603587.css.map": "/flavorfulfusion.github.io/static/css/main.84603587.css.map",
+    "main.cb816622.js.map": "/flavorfulfusion.github.io/static/js/main.cb816622.js.map"
   },
   "entrypoints": [
-    "static/css/main.6281e7b6.css",
-    "static/js/main.c316c81e.js"
+    "static/css/main.84603587.css",
+    "static/js/main.cb816622.js"
   ]
 }
