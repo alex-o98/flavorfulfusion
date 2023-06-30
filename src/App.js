@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home';
 import Meniu from './pages/Meniu';
 import Contact from './pages/Contact';
@@ -13,9 +13,9 @@ function App() {
     <AuthApi.Provider value={{auth, setAuth}}>
       <Router>            
         <Routes>
-            <Route path="/flavorfulfusion/" element={<Home/>}/>          
-            <Route path="/flavorfulfusion/menu" element={<Meniu/>}/>
-            <Route path="/flavorfulfusion/contact" element={<Contact/>}/>
+            <Route path="/" element={<Home/>}/>          
+            <Route path="/menu" element={<Meniu/>}/>
+            <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </Router>
     </AuthApi.Provider>
